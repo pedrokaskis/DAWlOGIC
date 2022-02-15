@@ -1,0 +1,45 @@
+#titulo1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    
+}
+
+#textoAside{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+#textoAside p{
+    text-align: justify;
+}
+
+#tasmaniaFoto{
+    height: auto;
+    width: auto;
+    margin-top: 10%;
+    margin-left: -10%;
+    
+}
+
+.creativeCommons{
+    margin-left: 60%;
+}
+
+.ccTexto{
+   font-size: 75%;
+   text-align: center;
+}
+
+.ccTexto2{
+    font-size: 75%;
+    text-align: center;
+    margin-top:-7%;
+ }
+
+ .manu{
+     padding-top:7%;
+ }
