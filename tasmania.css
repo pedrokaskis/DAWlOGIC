@@ -64,3 +64,26 @@
      padding-right:75%;
      list-style: none;
  }
+
+ /* RESPONSIVE */
+
+ @media (max-width: 700px) {
+
+    .sub{
+        margin-top: 25%;
+    }
+
+    #carrusel{
+        margin-top:0;
+        margin-left:15%;
+    }
+    
+    .container-fluid{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #prueba{
+        width: 25%;
+    }
+}
