@@ -1,0 +1,66 @@
+#titulo1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#titulo2{
+    margin-left: 35%;
+}
+
+#textoAside{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+#textoAside p{
+    text-align: justify;
+}
+
+#tasmaniaFoto{
+    height: auto;
+    width: 45%;
+    margin-top: -10%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    
+}
+
+#carrusel{
+    margin-top: -40%;
+    margin-right: 20%;
+}
+
+.creativeCommons{
+    margin-left: 60%;
+}
+
+.ccTexto{
+   font-size: 75%;
+   text-align: center;
+}
+
+.ccTexto2{
+    font-size: 75%;
+    text-align: center;
+    margin-top:-7%;
+ }
+
+ .manu{
+     padding-top:7%;
+ }
+
+ .titulo{
+     margin-top:-50%;
+ }
+
+ .subtitulo{
+     padding-top: 10%;
+ }
+
+ #prueba{
+     padding-right:75%;
+     list-style: none;
+ }
