@@ -1,0 +1,16 @@
+.carousel img {
+    max-width: 1000px;
+    max-height: 1060px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel{
+ height: 1060px;
+ width: 1060px;
+}
+
+#carouselExampleCaptions{
+    margin: auto;
+}
