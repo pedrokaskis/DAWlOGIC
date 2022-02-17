@@ -3,6 +3,9 @@
   font-weight: bold;
 }
 
+header li{
+  list-style: none;
+}
 .u-section-1 .u-sheet-1 {
   min-height: 1157px;
 }
