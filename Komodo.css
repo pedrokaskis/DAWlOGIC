@@ -4,6 +4,11 @@ figcaption {
     text-align: center;
 }
 
+figcaption a,
+div a {
+    text-decoration: none;
+}
+
 #titulo1 {
     display: flex;
     flex-wrap: wrap;
