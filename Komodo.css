@@ -1,7 +1,11 @@
 figcaption {
-    color: rgb(77, 74, 74);
-    font-size: 12px;
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
     text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 figcaption a,
@@ -42,6 +46,10 @@ div a {
 #carrusel {
     margin-top: -40%;
     margin-right: 20%;
+}
+
+#carousel-control-prev-icon {
+    background-color: rgb(228, 191, 46);
 }
 
 .creativeCommons {
