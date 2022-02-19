@@ -64,3 +64,69 @@
      padding-right:75%;
      list-style: none;
  }
+
+ /* RESPONSIVE móvil*/
+
+ @media (max-width: 600px) {
+
+    .sub{
+        margin-top: 35%;
+    }
+
+    #carrusel{
+        margin-top:0;
+        margin-left:15%;
+        margin-bottom: 0;
+    }
+    
+    .container-fluid{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #prueba{
+        width: 25%;
+    }
+    #tasmaniaFoto{
+        display:none;
+    }
+    .ccTexto{
+        display: none;
+    }
+
+    
+    .ccTexto2{
+        display: none;
+    }
+    #fotoCC{
+        display:none;
+    }
+}
+/* RESPONSIVE tablet*/
+@media(min-width: 601px){
+    
+    #carrusel{
+        margin-top:-5%;
+        margin-bottom:10%;
+    }
+    
+}
+/* RESPONSIVE PC*/
+@media(min-width:780px){
+    .sub{
+        margin-top: 30%;
+    }
+    #carrusel{
+        margin-top:-5%;
+        padding:0;
+        margin-bottom:0;
+    }
+    .ccTexto{
+        margin-bottom: 2%;
+    }
+    #tasmaniaFoto{
+        margin-top:-10%;
+    }
+    
+    
+}
