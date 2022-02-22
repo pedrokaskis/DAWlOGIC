@@ -1,23 +1,23 @@
-#enlace1,#enlace2,#enlace3,#enlace4,#enlace5{
-    display: block;
-    text-align: center;
+.centrado_enlaces {
+  display: block;
+  text-align: center;
 }
 
-#videos{
-    display:grid;
-    gap: 50px;
-    grid-template-columns: auto auto auto;
-    margin-bottom: 10px;
-    margin-top: 10px;
+#videos {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: auto auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
 }
 
-#videos2{
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 50px;
-    justify-content: center;
+#center {
+  text-align: center;
 }
 
-#center{
-    text-align: center;
+@media screen and (max-width: 1224px) {
+  #videos {
+    grid-template-columns: auto;
+  }
 }
