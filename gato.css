@@ -1,3 +1,6 @@
+#abajo{
+    margin-top: auto;
+}
 
 #titulo1{
     display: flex;
@@ -130,4 +133,10 @@
     }
     
     
+}
+
+@media(max-width:991px){
+    #abajo{
+        margin-top: 200px;
+    }
 }
