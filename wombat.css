@@ -85,110 +85,137 @@ ul.dropdown-menu.show{
     right: 4px;
     left: auto;
 }
-/*-----Sobrará algo, pero funciona-------*/
-
-.ccTexto {
-    font-size: 75%;
-    text-align: center;
+div#navbarSupportedContent.Collapse.navbar-collapse{
+    float:right;
+    display: block;
+    flex-basis: auto;
+}
+.navbar-nav.me-right.mb-2.mb-lg-0{
+    flex-direction: row-reverse;
+}
+.container-fluid{
+    display:inline-block;
+    flex-wrap: inherit;
+    justify-content: space-between;
+    flex-direction: row;
+}
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .navbar-collapse {
+        flex-direction: row-reverse;
+        display: block;
+    }
+    div#navbarSupportedContent.collapse.navbar-collapse{
+        display:block!important;
+    }
+    .navbar-nav.me-right.mb-2.mb-lg-0 {
+        flex-direction: row-reverse;
+    }
 }
 
-.ccTexto2 {
-    font-size: 75%;
-    text-align: center;
-    margin-top: -7%;
-}
+    /*-----Sobrará algo, pero funciona-------*/
 
-.manu {
-    padding-top: 7%;
-}
 
-.titulo {
-    margin-top: -50%;
-}
 
-.subtitulo {
-    padding-top: 10%;
-}
-
-#prueba {
-    padding-right: 70%;
-    list-style: none;
-}
-
-/* RESPONSIVE móvil*/
-
-@media (max-width: 600px) {
-
-    .sub {
-        margin-top: 35%;
+    .ccTexto {
+        font-size: 75%;
+        text-align: center;
     }
 
-    #carrusel {
-        margin-top: 0;
-        margin-left: 15%;
-        margin-bottom: 0;
+    .ccTexto2 {
+        font-size: 75%;
+        text-align: center;
+        margin-top: -7%;
     }
 
-    .container-fluid {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+    .manu {
+        padding-top: 7%;
+    }
+
+    .titulo {
+        margin-top: -50%;
+    }
+
+    .subtitulo {
+        padding-top: 10%;
     }
 
     #prueba {
-        width: 25%;
+        padding-right: inherit;
+        list-style: none;
     }
 
-    #tasmaniaFoto {
-        display: none;
+    /* RESPONSIVE móvil*/
+    @media (max-width: 600px) {
+
+        .sub {
+            margin-top: 35%;
+        }
+
+        #carrusel {
+            margin-top: 0;
+            margin-left: 15%;
+            margin-bottom: 0;
+        }
+
+        .container-fluid {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        #prueba {
+            width: 25%;
+        }
+
+        #tasmaniaFoto {
+            display: none;
+        }
+
+        .ccTexto {
+            display: none;
+        }
+
+
+        .ccTexto2 {
+            display: none;
+        }
+
+        #fotoCC {
+            display: none;
+        }
     }
 
-    .ccTexto {
-        display: none;
+    /* RESPONSIVE tablet*/
+    @media (min-width: 601px) {
+        .sub {
+            margin-top: 30%;
+        }
+
+        #carrusel {
+            margin-top: -5%;
+            margin-bottom: 10%;
+        }
+
     }
 
+    /* RESPONSIVE PC*/
+    @media (min-width: 780px) {
+        .sub {
+            margin-top: 30%;
+        }
 
-    .ccTexto2 {
-        display: none;
+        #carrusel {
+            margin-top: -5%;
+            padding: 0;
+            margin-bottom: 0;
+        }
+
+        .ccTexto {
+            margin-bottom: 2%;
+        }
+
+        #tasmaniaFoto {
+            margin-top: -10%;
+        }
+
     }
-
-    #fotoCC {
-        display: none;
-    }
-}
-
-/* RESPONSIVE tablet*/
-@media(min-width: 601px) {
-    .sub {
-        margin-top: 30%;
-    }
-
-    #carrusel {
-        margin-top: -5%;
-        margin-bottom: 10%;
-    }
-
-}
-
-/* RESPONSIVE PC*/
-@media(min-width:780px) {
-    .sub {
-        margin-top: 30%;
-    }
-
-    #carrusel {
-        margin-top: -5%;
-        padding: 0;
-        margin-bottom: 0;
-    }
-
-    .ccTexto {
-        margin-bottom: 2%;
-    }
-
-    #tasmaniaFoto {
-        margin-top: -10%;
-    }
-
-
-}
