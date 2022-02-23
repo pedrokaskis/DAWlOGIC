@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="86.486259mm"
+   height="86.487015mm"
+   viewBox="0 0 86.486259 86.487015"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="signo suma.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     borderlayer="false"
+     objecttolerance="20"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.74118967"
+     inkscape:cx="64.08616"
+     inkscape:cy="414.87356"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-52.068156,-38.859855)">
+    <rect
+       style="fill:#000000;stroke:#0c0000;stroke-width:0.1"
+       id="rect846"
+       width="22.132212"
+       height="86.387016"
+       x="83.531242"
+       y="38.909855"
+       ry="11.066106" />
+    <rect
+       style="fill:#000000;stroke:#0c0000;stroke-width:0.1"
+       id="rect846-4"
+       width="22.132212"
+       height="86.387016"
+       x="69.900528"
+       y="-138.1115"
+       transform="rotate(89.720885)"
+       ry="11.066106" />
+  </g>
+</svg>
