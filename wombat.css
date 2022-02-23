@@ -29,6 +29,9 @@ div a {
 .linkf{
     color: #7ec4ff;
 }
+.linkp{
+    color: #0053B8;
+}
 
 #titulo1 {
     display: flex;
