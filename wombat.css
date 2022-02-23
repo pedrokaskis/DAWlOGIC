@@ -75,6 +75,17 @@ div a {
 .creativeCommons {
     margin-left: 60%;
 }
+/*------Menu creciendo a la izquierda------*/
+a.dropdown-item{
+    text-align: left;
+}
+ul.dropdown-menu.show{
+    text-decoration: none;
+    display: block;
+    right: 4px;
+    left: auto;
+}
+/*-----Sobrará algo, pero funciona-------*/
 
 .ccTexto {
     font-size: 75%;
