@@ -8,6 +8,24 @@ figcaption {
     border-bottom-right-radius: 5px;
 }
 
+figcaption a {
+    text-decoration: none;
+    color: #7ec4ff;
+}
+
+div a {
+    text-decoration: none;
+    color: #1b5eb8;
+}
+
+.linkf {
+    color: #7ec4ff;
+}
+
+.linkp {
+    color: #0053B8;
+}
+
 .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
@@ -90,126 +108,4 @@ div a {
 #prueba {
     padding-right: 70%;
     list-style: none;
-}
-
-/*------Menu creciendo a la izquierda------*/
-a.dropdown-item {
-    text-align: left;
-}
-
-ul.dropdown-menu.show {
-    text-decoration: none;
-    display: block;
-    right: 4px;
-    left: auto;
-}
-
-div#navbarSupportedContent.Collapse.navbar-collapse {
-    float: right;
-    display: block;
-    flex-basis: auto;
-}
-
-.navbar-nav.me-right.mb-2.mb-lg-0 {
-    flex-direction: row-reverse;
-}
-
-.container-fluid {
-    display: inline-block;
-    flex-wrap: inherit;
-    justify-content: space-between;
-    flex-direction: row;
-}
-
-@media (min-width: 992px) {
-    .navbar-expand-lg .navbar-nav .navbar-collapse {
-        flex-direction: row-reverse;
-        display: block;
-    }
-
-    div#navbarSupportedContent.collapse.navbar-collapse {
-        display: block !important;
-    }
-
-    .navbar-nav.me-right.mb-2.mb-lg-0 {
-        flex-direction: row-reverse;
-    }
-}
-
-/* RESPONSIVE móvil*/
-
-@media (max-width: 600px) {
-
-    .sub {
-        margin-top: 35%;
-    }
-
-    #carrusel {
-        margin-top: 0;
-        margin-left: 15%;
-        margin-bottom: 0;
-    }
-
-    .container-fluid {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    #prueba {
-        width: 25%;
-    }
-
-    #tasmaniaFoto {
-        display: none;
-    }
-
-    .ccTexto {
-        display: none;
-    }
-
-
-    .ccTexto2 {
-        display: none;
-    }
-
-    #fotoCC {
-        display: none;
-    }
-}
-
-/* RESPONSIVE tablet*/
-@media(min-width: 601px) {
-    .sub {
-        margin-top: 30%;
-    }
-
-    #carrusel {
-        margin-top: -5%;
-        margin-bottom: 10%;
-    }
-
-}
-
-/* RESPONSIVE PC*/
-@media(min-width:780px) {
-    .sub {
-        margin-top: 30%;
-    }
-
-    #carrusel {
-        margin-top: -5%;
-        padding: 0;
-        margin-bottom: 0;
-    }
-
-    .ccTexto {
-        margin-bottom: 2%;
-    }
-
-    #tasmaniaFoto {
-        margin-top: -10%;
-    }
-
-
 }
