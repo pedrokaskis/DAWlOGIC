@@ -17,6 +17,16 @@
   justify-self: center;
 }
 
+#video1,#video3,#video5{
+  margin-bottom: 200px;
+  margin-left: 10%;
+}
+
+#video2,#video4{
+  margin-bottom: 250px;
+  margin-right: 10%;
+}
+
 #center {
   text-align: center;
 }
@@ -30,4 +40,8 @@
   #video1,#video2,#video3,#video4,#video5{
     margin: auto;
   }
+}
+
+.linkf {
+  color: #7ec4ff;
 }
