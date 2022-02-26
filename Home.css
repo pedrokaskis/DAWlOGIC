@@ -11,6 +11,11 @@
   margin-top: 10px;
   text-align: center;
 }
+#video1,#video3,#video5,#video2,#video4,#más{
+  width: 600px;
+  height: 300px;
+  justify-self: center;
+}
 
 #center {
   text-align: center;
@@ -20,5 +25,9 @@
 @media screen and (max-width: 1224px) {
   #videos {
     grid-template-columns: auto;
+  }
+
+  #video1,#video2,#video3,#video4,#video5{
+    margin: auto;
   }
 }
