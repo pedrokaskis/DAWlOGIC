@@ -16,15 +16,7 @@ figcaption {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
-figcaption a {
-    text-decoration: none;
-    color: #7ec4ff;
-}
 
-div a {
-    text-decoration: none;
-    color: #1b5eb8;
-}
 
 .linkf{
     color: #7ec4ff;
@@ -76,6 +68,16 @@ div a {
     margin-left: 60%;
 }
 /*------Menu creciendo a la izquierda------*/
+figcaption a {
+    text-decoration: none;
+    color: #7ec4ff;
+}
+
+div a {
+    text-decoration: none;
+    color: #1b5eb8;
+}
+
 a.dropdown-item{
     text-align: left;
 }
@@ -99,6 +101,7 @@ div#navbarSupportedContent.Collapse.navbar-collapse{
     justify-content: space-between;
     flex-direction: row;
 }
+
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-nav .navbar-collapse {
         flex-direction: row-reverse;
@@ -110,6 +113,27 @@ div#navbarSupportedContent.Collapse.navbar-collapse{
     .navbar-nav.me-right.mb-2.mb-lg-0 {
         flex-direction: row-reverse;
     }
+    ul.navbar-nav.me-auto.mb-2.mb-lg-0{
+        flex-direction: row-reverse;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-expand-lg .navbar-nav .navbar-collapse {
+        flex-direction: row-reverse;
+        display: block;
+    }
+    /* div#navbarSupportedContent.collapse.navbar-collapse{
+        display:block!important;
+    } */
+    .navbar-nav.me-right.mb-2.mb-lg-0 {
+        flex-direction: row-reverse;
+    }
+    ul.navbar-nav.me-auto.mb-2.mb-lg-0{
+        flex-direction: column-reverse;
+    }
+   
+    
 }
 
     /*-----Sobrará algo, pero funciona-------*/
