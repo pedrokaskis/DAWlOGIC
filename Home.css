@@ -31,6 +31,9 @@
   text-align: center;
 }
 
+.linkf {
+  color: #7ec4ff;
+}
 
 @media screen and (max-width: 1224px) {
   #videos {
@@ -40,8 +43,13 @@
   #video1,#video2,#video3,#video4,#video5{
     margin: auto;
   }
+
+  #video1,#video3{
+    margin-bottom: 200px;
+  }
+
+  #video2,#video4{
+    margin-bottom: 300px;
+  }
 }
 
-.linkf {
-  color: #7ec4ff;
-}
