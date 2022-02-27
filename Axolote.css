@@ -1,3 +1,4 @@
+
 figcaption {
     background-color: #222;
     color: #fff;
@@ -36,21 +37,11 @@ div a {
     flex-wrap: wrap;
     justify-content: center;
 }
-#fotoCC{
-    padding-right: 15%;
-}
 
 #titulo2{
     margin-left: 35%;
 }
-#Komodo {
-    height: 45%;
-    width: 45%;
-    margin-top: 10%;
-    margin-left: 10%;
-    margin-bottom: 5%;
 
-}
 #textoAside{
     display: flex;
     flex-direction: row-reverse;
@@ -146,7 +137,7 @@ div a {
     }
 }
 /* RESPONSIVE tablet*/
-@media(max-width: 601px){
+@media(min-width: 601px){
     .sub{
         margin-top: 30%;
     }
@@ -186,7 +177,11 @@ ul.dropdown-menu.show{
     right: 4px;
     left: auto;
 }
-
+div#navbarSupportedContent.Collapse.navbar-collapse{
+    float:right;
+    display: block;
+    flex-basis: auto;
+}
 .navbar-nav.me-right.mb-2.mb-lg-0{
     flex-direction: row-reverse;
 }
