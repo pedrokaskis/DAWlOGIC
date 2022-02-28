@@ -177,11 +177,7 @@ ul.dropdown-menu.show{
     right: 4px;
     left: auto;
 }
-div#navbarSupportedContent.Collapse.navbar-collapse{
-    float:right;
-    display: block;
-    flex-basis: auto;
-}
+
 .navbar-nav.me-right.mb-2.mb-lg-0{
     flex-direction: row-reverse;
 }
