@@ -135,6 +135,9 @@ div a {
     #fotoCC{
         display:none;
     }
+    .titulo1{
+        margin-left: 20%;
+    }
 }
 /* RESPONSIVE tablet*/
 @media(min-width: 601px){
