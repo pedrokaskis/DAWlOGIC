@@ -53,11 +53,10 @@ div a {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
-    justify-content: flex-end;
 }
 
 #textoAside p {
-    text-align: justify;
+    text-align: left;
 }
 
 #Komodo {

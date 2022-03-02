@@ -1,4 +1,3 @@
-
 figcaption {
     background-color: #222;
     color: #fff;
@@ -8,6 +7,7 @@ figcaption {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+
 figcaption a {
     text-decoration: none;
     color: #7ec4ff;
@@ -17,10 +17,12 @@ div a {
     text-decoration: none;
     color: #1b5eb8;
 }
-.linkf{
+
+.linkf {
     color: #7ec4ff;
 }
-.linkp{
+
+.linkp {
     color: #0053B8;
 }
 
@@ -32,157 +34,170 @@ div a {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
-#titulo1{
+#titulo1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-#titulo2{
+#titulo2 {
     margin-left: 35%;
 }
 
-#textoAside{
+#textoAside {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
 }
 
-#textoAside p{
-    text-align: justify;
+#textoAside p {
+    /* text-align: justify; */
+    text-align: left;
 }
 
-#tasmaniaFoto{
+#tasmaniaFoto {
     height: auto;
     width: 45%;
     margin-top: -10%;
     margin-left: 10%;
     margin-bottom: 5%;
-    
+
 }
 
-#carrusel{
+#carrusel {
     margin-top: -40%;
     margin-right: 20%;
 }
 
-.creativeCommons{
+.creativeCommons {
     margin-left: 60%;
 }
 
-.ccTexto{
-   font-size: 75%;
-   text-align: center;
-}
-
-.ccTexto2{
+.ccTexto {
     font-size: 75%;
     text-align: center;
-    margin-top:-7%;
- }
+}
 
- .manu{
-     padding-top:7%;
- }
+.ccTexto2 {
+    font-size: 75%;
+    text-align: center;
+    margin-top: -7%;
+}
 
- .titulo{
-     margin-top:-50%;
- }
+.manu {
+    padding-top: 7%;
+}
 
- .subtitulo{
-     padding-top: 10%;
- }
+.titulo {
+    margin-top: -50%;
+}
 
- #prueba{
-     padding-right:inherit;
-     list-style: none;
- }
+.subtitulo {
+    padding-top: 10%;
+}
 
- /* RESPONSIVE móvil*/
+#prueba {
+    padding-right: inherit;
+    list-style: none;
+}
 
- @media (max-width: 600px) {
+/* RESPONSIVE móvil*/
 
-    .sub{
+@media (max-width: 600px) {
+
+    .sub {
         margin-top: 35%;
     }
 
-    #carrusel{
-        margin-top:0;
-        margin-left:15%;
+    #carrusel {
+        margin-top: 0;
+        margin-left: 15%;
         margin-bottom: 0;
     }
-    
-    .container-fluid{
+
+    .container-fluid {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
-    #prueba{
+
+    #prueba {
         width: 25%;
     }
-    #tasmaniaFoto{
-        display:none;
-    }
-    .ccTexto{
+
+    #tasmaniaFoto {
         display: none;
     }
 
-    
-    .ccTexto2{
+    .ccTexto {
         display: none;
     }
-    #fotoCC{
-        display:none;
+
+
+    .ccTexto2 {
+        display: none;
+    }
+
+    #fotoCC {
+        display: none;
     }
 }
+
 /* RESPONSIVE tablet*/
-@media(min-width: 601px){
-    .sub{
+@media(min-width: 601px) {
+    .sub {
         margin-top: 30%;
     }
-    #carrusel{
-        margin-top:-5%;
-        margin-bottom:10%;
+
+    #carrusel {
+        margin-top: -5%;
+        margin-bottom: 10%;
     }
-    
+
 }
+
 /* RESPONSIVE PC*/
-@media(min-width:780px){
-    .sub{
+@media(min-width:780px) {
+    .sub {
         margin-top: 30%;
     }
-    #carrusel{
-        margin-top:-5%;
-        padding:0;
-        margin-bottom:0;
+
+    #carrusel {
+        margin-top: -5%;
+        padding: 0;
+        margin-bottom: 0;
     }
-    .ccTexto{
+
+    .ccTexto {
         margin-bottom: 2%;
     }
-    #tasmaniaFoto{
-        margin-top:-10%;
-    }   
+
+    #tasmaniaFoto {
+        margin-top: -10%;
+    }
 }
 
 /* ESTO SI VA */
 
 
-a.dropdown-item{
+a.dropdown-item {
     text-align: left;
 }
-ul.dropdown-menu.show{
+
+ul.dropdown-menu.show {
     text-decoration: none;
     display: block;
     right: 4px;
     left: auto;
 }
 
-.navbar-nav.me-right.mb-2.mb-lg-0{
+.navbar-nav.me-right.mb-2.mb-lg-0 {
     flex-direction: row-reverse;
 }
-.container-fluid{
-    display:inline-block;
+
+.container-fluid {
+    display: inline-block;
     flex-wrap: inherit;
     justify-content: space-between;
     flex-direction: row;
@@ -193,13 +208,16 @@ ul.dropdown-menu.show{
         flex-direction: row-reverse;
         display: block;
     }
-    div#navbarSupportedContent.collapse.navbar-collapse{
-        display:block!important;
+
+    div#navbarSupportedContent.collapse.navbar-collapse {
+        display: block !important;
     }
+
     .navbar-nav.me-right.mb-2.mb-lg-0 {
         flex-direction: row-reverse;
     }
-    ul.navbar-nav.me-auto.mb-2.mb-lg-0{
+
+    ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
         flex-direction: row-reverse;
     }
 }
@@ -209,15 +227,17 @@ ul.dropdown-menu.show{
         flex-direction: row-reverse;
         display: block;
     }
+
     /* div#navbarSupportedContent.collapse.navbar-collapse{
         display:block!important;
     } */
     .navbar-nav.me-right.mb-2.mb-lg-0 {
         flex-direction: row-reverse;
     }
-    ul.navbar-nav.me-auto.mb-2.mb-lg-0{
+
+    ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
         flex-direction: column-reverse;
     }
-   
-    
+
+
 }
