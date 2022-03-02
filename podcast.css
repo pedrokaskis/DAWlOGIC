@@ -35,6 +35,9 @@
     #fotoCC{
         display:none;
     }
+    .licencia{
+        margin-left: 10%;
+    }
 }
 /* RESPONSIVE tablet*/
 @media(min-width: 601px){
@@ -44,6 +47,9 @@
     #carrusel{
         margin-top:-5%;
         margin-bottom:10%;
+    }
+    .licencia{
+        margin-left: 6%;
     }
 
 }
@@ -62,6 +68,9 @@
     }
     #tasmaniaFoto{
         margin-top:-10%;
+    }
+    .licencia{
+        margin-left: 3%;
     }
 }
 .linkf{

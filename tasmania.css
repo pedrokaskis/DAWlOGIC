@@ -54,8 +54,6 @@ div a {
 }
 
 #tasmaniaFoto{
-    height: auto;
-    width: 45%;
     margin-top: -10%;
     margin-left: 10%;
     margin-bottom: 5%;
@@ -91,7 +89,7 @@ div a {
  }
 
  .subtitulo{
-     padding-top: 10%;
+     padding-top: 15%;
  }
 
  #prueba{
@@ -138,6 +136,9 @@ div a {
     .titulo1{
         margin-left: 20%;
     }
+    .licencia{
+        margin-top:8%;
+    }
 }
 /* RESPONSIVE tablet*/
 @media(min-width: 601px){
@@ -148,8 +149,13 @@ div a {
         margin-top:-5%;
         margin-bottom:10%;
     }
+
+    #textoAside{
+        text-align: left;
+    }
     
 }
+
 /* RESPONSIVE PC*/
 @media(min-width:780px){
     .sub{

@@ -49,6 +49,10 @@ li#prueba {
 #container {
 padding-bottom: 20px;
 }
+.licencia{
+    margin-left:5%;
+    margin-top:5%;
+}
 
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-nav .navbar-collapse {
