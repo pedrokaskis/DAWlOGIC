@@ -89,7 +89,7 @@ div a {
  }
 
  .subtitulo{
-     padding-top: 15%;
+     padding-top: 20%;
  }
 
  #prueba{
@@ -153,6 +153,7 @@ div a {
     #textoAside{
         text-align: left;
     }
+    
     
 }
 
@@ -231,6 +232,7 @@ div#navbarSupportedContent.Collapse.navbar-collapse{
     ul.navbar-nav.me-auto.mb-2.mb-lg-0{
         flex-direction: column-reverse;
     }
+    
    
     
 }
