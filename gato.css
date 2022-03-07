@@ -121,6 +121,7 @@ figcaption {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        position: relative;
     }
     #prueba{
         width: 25%;
@@ -172,7 +173,7 @@ figcaption {
 
 @media(max-width:991px){
     #abajo{
-        margin-top: 200px;
+        padding-top: 200px;
     }
 }
 
@@ -203,3 +204,4 @@ div#navbarSupportedContent.Collapse.navbar-collapse{
 #nosotros{
     width: 131px;
 }
+
