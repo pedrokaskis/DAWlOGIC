@@ -69,7 +69,10 @@ padding-bottom: 20px;
     }
 }
 /* ESTO SI VA */
+.tform{
+    text-align: left;
 
+}
 
 a.dropdown-item{
     text-align: left;
