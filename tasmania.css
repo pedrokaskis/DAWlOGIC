@@ -50,13 +50,13 @@ div a {
 }
 
 #textoAside p{
-    text-align: justify;
+    text-align: left;
 }
 
 #tasmaniaFoto{
-    margin-top: -10%;
     margin-left: 10%;
     margin-bottom: 5%;
+    width: 60%;
     
 }
 
