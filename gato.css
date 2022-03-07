@@ -1,6 +1,4 @@
-#abajo{
-    margin-top: auto;
-}
+
 
 #navbarSupportedContent{
     margin-left: 130px;
@@ -127,7 +125,7 @@ figcaption {
     #prueba{
         width: 25%;
     }
-    #tasmaniaFoto{
+    #gatoFoto{
         display:none;
     }
     .ccTexto{
@@ -151,6 +149,7 @@ figcaption {
     }
     
 }
+
 /* RESPONSIVE PC*/
 @media(min-width:780px){
     .sub{
@@ -164,7 +163,7 @@ figcaption {
     .ccTexto{
         margin-bottom: 2%;
     }
-    #tasmaniaFoto{
+    #gatoFoto{
         margin-top:-10%;
     }
     
